@@ -28,8 +28,9 @@ body {
 
 /* logo image */
 .container .logo {
-    padding: 150px 60px 0 60px;
+    padding: 10% 60px 0 60px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 
@@ -39,6 +40,7 @@ body {
 
 /* navigation bar */
 .container .nav {
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -75,5 +77,38 @@ body {
     font-size: x-large;
     font-weight: 800;
 
+
+}
+
+/* Description text */
+.description p {
+    text-align: center;
+    margin-top: 50px;
+    font-size: x-large;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    word-spacing: 5px;
+
+}
+
+/* CTA button */
+
+.btn button {
+    margin-top: 100px;
+    width: 300px;
+    height: 70px;
+    margin-left: 45%;
+    margin-right: 50%;
+    border-radius: 10px;
+    background-color: #0b5394;
+
+}
+
+.btn button a {
+    text-decoration: none;
+    font-size: larger;
+    color: aliceblue;
+    font-weight: 700;
 
 }
